@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Restaurant Ribnjak | Podgorica</title>
+    <meta name="description" content="Nacionalni restoran Ribnjak u Podgorici - svježa riječna pastrmka, domaća crnogorska kuhinja, prelijepa terasa pored potoka.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.6e9e6fe3.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐟</text></svg>">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <div class="container header__container">
+            <a href="#" class="brand">
+                <span class="brand__icon">🐟</span>
+                <div class="brand__text">
+                    <span class="brand__title">Ribnjak</span>
+                    <span class="brand__sub">National Restaurant</span>
+                </div>
+            </a>
+
+            <nav class="nav" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#about" class="nav__link" data-i18n="nav_about">O nama</a></li>
+                    <li><a href="#menu" class="nav__link" data-i18n="nav_menu">Jelovnik</a></li>
+                    <li><a href="#reviews" class="nav__link" data-i18n="nav_reviews">Utisci</a></li>
+                    <li><a href="#contact" class="nav__link" data-i18n="nav_contact">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__actions">
+                <div class="lang-switch">
+                    <button class="lang-btn active" data-lang="sr">SR</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                </div>
+
+                <a href="tel:+38269352388" class="btn btn--outline btn--sm header__phone">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span>+382 69 352 388</span>
+                </a>
+
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__bg">
+                <img src="assets/img_01.jpg" alt="Svježe pripremljena riba na roštilju" class="hero__img">
+                <div class="hero__overlay"></div>
+            </div>
+            
+            <div class="container hero__content">
+                <div class="hero__badge">
+                    <span class="hero__stars">★ 4.8</span>
+                    <span class="hero__reviews-count" data-i18n="hero_reviews">(230+ recenzija)</span>
+                </div>
+                
+                <h1 class="hero__title" data-i18n="hero_title">Svježa pastrmka i tradicionalni crnogorski ukusi pored vode</h1>
+                <p class="hero__tagline" data-i18n="hero_tagline">Uživajte u obroku u hladu vinove loze uz šum prirodnog potoka i miris domaće kuhinje.</p>
+                
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary" data-i18n="hero_btn_menu">Pogledajte Jelovnik</a>
+                    <a href="tel:+38269352388" class="btn btn--secondary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <span data-i18n="hero_btn_call">Rezervišite Sto</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights & Atmosphere -->
+        <section class="atmosphere section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle" data-i18n="about_subtitle">Prirodni ambijent i tradicija</span>
+                    <h2 class="section-title" data-i18n="about_title">Kutak mira i domaćeg ukusa u Podgorici</h2>
+                </div>
+
+                <div class="grid-gallery">
+                    <div class="gallery-card gallery-card--large">
+                        <img src="assets/img_02.jpg" alt="Ljetnja terasa pored potoka" loading="lazy">
+                        <div class="gallery-card__caption">
+                            <span data-i18n="img_terrace">Terasa u hladu pored potoka</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <img src="assets/img_03.jpg" alt="Domaćinski drveni enterijer" loading="lazy">
+                        <div class="gallery-card__caption">
+                            <span data-i18n="img_interior">Topli drveni enterijer sa kaminom</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <img src="assets/img_04.jpg" alt="Domaća predjela i hljeb" loading="lazy">
+                        <div class="gallery-card__caption">
+                            <span data-i18n="img_food">Domaći sir, pršut i topli hljeb</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-card gallery-card--wide">
+                        <img src="assets/img_05.jpg" alt="Čaša vina uz rijeku" loading="lazy">
+                        <div class="gallery-card__caption">
+                            <span data-i18n="img_wine">Vrhunska lokalna vina Plantaže</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu section" id="menu">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle" data-i18n="menu_subtitle">Domaća kuhinja</span>
+                    <h2 class="section-title" data-i18n="menu_title">Naš Kompletan Jelovnik</h2>
+                    <p class="menu__notice" data-i18n="menu_notice">Sve cijene su izražene u eurima (€)</p>
+                </div>
+
+                <div class="menu__tabs" id="menu-tabs">
+                    <!-- Dynamic categories injected or scrollable -->
+                </div>
+
+                <div class="menu__content" id="menu-container">
+                    <!-- Menu categories will be populated by JS for active lang -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="reviews section" id="reviews">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle" data-i18n="reviews_subtitle">Iskustva gostiju</span>
+                    <h2 class="section-title" data-i18n="reviews_title">Šta kažu naši posjetioci</h2>
+                </div>
+
+                <div class="reviews__grid" id="reviews-container">
+                    <!-- Reviews rendered by JS according to selected lang -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Location & Contact -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact__wrapper">
+                    <div class="contact__info">
+                        <span class="section-subtitle" data-i18n="contact_subtitle">Gdje se nalazimo</span>
+                        <h2 class="section-title" data-i18n="contact_title">Posjetite nas ili nas pozovite</h2>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-item__icon">📍</div>
+                                <div class="info-item__content">
+                                    <h4 data-i18n="label_address">Adresa</h4>
+                                    <p>Podgorica, Montenegro</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-item__icon">📞</div>
+                                <div class="info-item__content">
+                                    <h4 data-i18n="label_phone">Telefon</h4>
+                                    <p><a href="tel:+38269352388">+382 69 352 388</a></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-item__icon">🕒</div>
+                                <div class="info-item__content">
+                                    <h4 data-i18n="label_hours">Radno vrijeme</h4>
+                                    <p data-i18n="value_hours">Ponedjeljak – Nedjelja: 09:00 – 21:00</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-item__icon">📷</div>
+                                <div class="info-item__content">
+                                    <h4 data-i18n="label_social">Društvene mreže</h4>
+                                    <p><a href="https://www.instagram.com/restoran_na_ribnjaku/" target="_blank" rel="noopener">Instagram @restoran_na_ribnjaku</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact__cta">
+                            <a href="tel:+38269352388" class="btn btn--primary">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                <span data-i18n="btn_call_now">Pozovite i Rezervišite</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact__map">
+                        <iframe 
+                            title="Location Map"
+                            src="https://maps.google.com/maps?q=National%20Restaurant%20Ribnjak%20Podgorica%20Montenegro&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__brand">
+                <a href="#" class="brand brand--footer">
+                    <span class="brand__icon">🐟</span>
+                    <span class="brand__title">National Restaurant Ribnjak</span>
+                </a>
+                <p data-i18n="footer_desc">Tradicija, miris svježe ribe i gostoprimstvo u srcu prirode.</p>
+            </div>
+
+            <div class="footer__links">
+                <a href="https://www.instagram.com/restoran_na_ribnjaku/" target="_blank" rel="noopener" class="social-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    <span>Instagram</span>
+                </a>
+            </div>
+
+            <div class="footer__copy">
+                <p>&copy; <span id="year"></span> National Restaurant Ribnjak. <span data-i18n="footer_rights">Sva prava zadržana.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Script -->
+    <script src="js/main.241aa9f0.js"></script>
+</body>
+</html>
